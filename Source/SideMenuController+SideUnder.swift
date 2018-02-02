@@ -25,7 +25,6 @@
 extension SideMenuController {
     
     // MARK: - Methods -
-    
     func configureGestureRecognizersForPositionUnder() {
         
         let panLeft = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(handleCenterPanelPanLeft))
